@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>JavaScript Tip Calculator</title>
+  </head>
+  <body>
+    <header><h1>JavaScript Tip Calculator</h1></header>
+    <main>
+      <div class="inputs">
+        <p id="please-enter">Please enter the initial cost:</p>
+        <input type="number" name="initial-cost" autocomplete="off" />
+      </div>
+      <p>Please enter the tip percentage.</p>
+      <div class="buttons">
+        <label><input type="radio" name="tip-button" value="0.05" />5%</label>
+        <label><input type="radio" name="tip-button" value="0.10" />10%</label>
+        <label><input type="radio" name="tip-button" value="0.15" />15%</label>
+        <label><input type="radio" name="tip-button" value="0.20" />20%</label>
+      </div>
+      <p id="tip-amount">Tip Amount: $0.00</p>
+      <p id="cost-output">Total Cost: $0.00</p>
+    </main>
+  </body>
+</html>
